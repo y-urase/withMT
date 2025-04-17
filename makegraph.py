@@ -2,7 +2,7 @@
 import numpy as np
 from matplotlib import pyplot as plt
 import pandas as pd
-print("a")
+print("ab")
 def plot_rmse_order(input_file, sheet_name, row_range, col_range, output_file):
     # Excelファイルを読み込む（pandasで）
     df = pd.read_excel(input_file, sheet_name=sheet_name, engine="openpyxl")
